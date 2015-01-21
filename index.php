@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-
-	<meta charset="utf-8" />
-	<title>Mise en prod, today ?</title>
-
-</head>
-<body>
 <?php
 /*
 TODO: 	Timezone du client,
@@ -31,11 +22,13 @@ if($day == 1) {
 } else {
 	$message = "Hmm, ça semble safe...";
 }
+	/**
+	 * Rendu HTML
+	 */
+	$html_title = "Mise en prod, today ?";
+	$html_headline = "Mise en prod, today ?";
+	$html_message = $message;
+	$html_notice = "Amélioration du site dans quelques temps, mais pas avant mardi hein.";
+	$html_gif = "";
 
-?>
-	<h1>Mise en prod, today ?</h1>
-	<p><?php echo $message; ?></p>
-	<small><i>Amélioration du site dans quelques temps, mais pas avant mardi hein.</i></small>
-
-</body>
-</html>
+	include_once("view.php");
