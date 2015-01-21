@@ -49,7 +49,7 @@
 		}
 
 		$rand = rand(0, count($files) - 1);
-		$file = $files[$rand];
+		$file = "images/" . $directory . "/" . $files[$rand];
 	} catch (Exception $e) {
 
 	}
