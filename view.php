@@ -5,9 +5,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta http-equiv="Content-Language" content="fr">
         <title><?php echo $html_title; ?></title>
-        <link href="web/css/style.css" media="all" rel="stylesheet" type="text/css">
+        <link href="style.css" media="all" rel="stylesheet" type="text/css">
     </head>
     <body>
+        <a class="forkit" href="https://github.com/mkody/miseenprod.today">
+            <span>Fork me on GitHub!</span>
+            <span>Get free cookie!</span>
+        </a>
         <div class="container">
             <h1><?php echo $html_title; ?></h1>
             <div class="image-warp">
