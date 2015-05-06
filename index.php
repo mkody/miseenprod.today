@@ -21,13 +21,13 @@
 	} elseif($day == 5) {
 		$message = "Vendredi ? LOLNOPE.";
 		$directory = "vendredi";
-	} elseif($time >= "11:45" && $time < "13:00") {
+	} elseif($time >= "09:45" && $time < "11:00") {
 		$message = "Ah bah non, 'faut aller manger maintenant !";
 		$directory = "midi";
-	} elseif($time >= "17:30" && $time < "23:00") {
+	} elseif($time >= "15:30" && $time < "21:00") {
 		$message = "Boarf, trop tard maintenant...";
 		$directory = "soir";
-	} elseif($time >= "23:00" && $time < "05:00") {
+	} elseif($time >= "21:00" && $time < "03:00") {
 		$message = "Et pourquoi pas aller dormir, vu l'heure ?";
 		$directory = "dormir";
 	}
