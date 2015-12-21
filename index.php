@@ -51,7 +51,9 @@
 		$rand = rand(0, count($files) - 1);
 		$file = "images/" . $directory . "/" . $files[$rand];
 	} catch (Exception $e) {
-
+		// Si ça plante, retourner quelque chose au moins
+		$file = "images/soir/octopus.gif";
+		echo "<!-- PHP ERROR: " . $e . " -->";
 	}
 	
 	/**
@@ -60,7 +62,7 @@
 	$html_title = "Mise en prod, today ?";
 	$html_headline = "Mise en prod, today ?";
 	$html_message = $message;
-	$html_notice = "Amélioration du site dans quelques temps, mais pas avant mardi hein.";
+	$html_notice = "";
 	$html_gif = $file;
 
 	include_once("view.php");
