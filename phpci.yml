@@ -3,3 +3,6 @@ test:
         allow_failures: true
     lint:
         recursive: true
+success:
+    shell:
+        command: "scp -qrp . 'miseenprod:/var/www/prod/'"
