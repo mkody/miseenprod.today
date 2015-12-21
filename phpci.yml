@@ -3,6 +3,3 @@ test:
         allow_failures: true
     lint:
         recursive: true
-success:
-    deployer:
-        webhook_url: "http://deploy.poni.fr/deploy/PxxRnEvTqalhcQ04ngBkJhBsOEzlEmc8M1RfeV9OUxVehEvFgjzRTg8nwIC3"
