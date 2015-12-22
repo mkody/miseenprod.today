@@ -1,5 +1,5 @@
 # Mise en prod, today ?
-![Build status](http://phpci.poni.fr/build-status/image/1)
+[![Build status](http://phpci.poni.fr/build-status/image/1)](http://phpci.poni.fr/build-status/view/1)
 
 ## Qu'est-ce que ?
 
